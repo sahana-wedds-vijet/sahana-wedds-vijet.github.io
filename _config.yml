@@ -1,0 +1,18 @@
+url: "http://prrraveen.github.io/wedding-theme" # the base hostname & protocol for your site
+
+markdown: kramdown
+
+# jekyll-sitemap generate sitemap.xml at _site/ dir. It helps google search webmaster to index the website
+# jekyll-feed The plugin will automatically generate an Atom feed at /feed.xml.
+
+# HOW TO INSTALL - >  bundle install
+gems: [jekyll-sitemap,jekyll-feed,jekyll-paginate]
+
+# how many post to show in ALL POST and FEATURED POST
+paginate: 6
+
+paginate_path: "/blog/page:num/"
+
+permalink: /:title
+
+
