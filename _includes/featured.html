@@ -1,39 +1,39 @@
 <div class="background-wrap">
-    <div id='featured'>
-        <div class="container">
-            <div class="row">
-                <div class='col-sm-12 text-center'>
-		  <h2>News of Prestigious Weddings from	Capitals and Major Cities around the World</h2>
+	<div id='featured'>
+		<div class="container">
+			<div class="row">
+				<div class='col-sm-12 text-center'>
+					<h1>The Bride & Groom</h1>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-sm-6'>
+					<h2>Sahana</h2>
+					<p>
+					Sarah is most thankful to her parents for the gift of two loving big brothers & five amazing role-model sisters. As the second-youngest, Sarah spent her childhood twirling & dancing around, putting on talent shows for her parents & grandparents. Her creative spirit and eye for design was established at a young age, as she highly disapproved of Mattel’s © furnishings and décor within her Barbie House. If Barbie needed an interior makeover (which was frequent) Sarah looked through home furnishing catalogs for inspiration, drew the new contents by hand and placed them as backdrops in the Barbie house. After graduation from Mater Dei High School, Sarah explored the metropolitan life in San Francisco and graduated with a BS in Interior Design from San Francisco State University. Sarah is adding to her vows that she will forever allow a one-room “man-den” with it’s contents and décor subject to Bradley’s discretion.
+					</p>
+				</div>
+				<div class='col-sm-6'>
+					<h2>Vijet</h2>
+					<p>
+					Born in Mission Viejo, California, Bradley spent half of his life living with his mother in San Diego and half with his wonderful Wisconsin family. Bradley grew up playing ice hockey while secretly learning how to build computers. Half jock, half nerd, he has cultivated these interests well into his adult life, that make him who he is today. After his graduation from the University of San Francisco with a degree in Information Systems, Bradley worked for Yahoo! for seven years, and continued to explore the tech startup scene in San Francisco. With an entrepreneurial spirit and passion for technology, Bradley now runs his own software company, Scal.io, building hand-crafted mobile, web, and desktop apps for tech companies in the Silicon Valley and beyond. Bradley is adding to his vows a lifetime IT guarantee to Sarah, that he will be readily available 24/7 to troubleshoot... anything & everything technical.
+					<p>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-sm-12'>
+					<h1>Wedding Ceremony</h1>
+					<h3>9:40AM to 10:40AM at  Mahaveer Bhavan, Goaves Circle, Hindvadi, Belgaum <h3>
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col-sm-12'>
+					<h1>VICINITY MAP</h1>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.352588044425!2d74.50595141540886!3d15.838055389024133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf6684e04afeeb%3A0x485bf977a96ea516!2sMahaveer+Bhavan!5e0!3m2!1sen!2sin!4v1468223798903" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
 		</div>
-            </div>
-        </div>
-    <div class="row address-line ProximaNovaA-Thin">
-       <div class='col-sm-12 text-left'>
-           <h4>
-		<small>If something is importan enough you should try, even if the probable outcome is failur.</small>
-           </h4>
-       </div>
-    </div>
-
-        <div class="row">
-            <div class='col-sm-12'>
-                <span class="nvgt glyphicon glyphicon-chevron-left" id="prev"></span>
-                <span class="nvgt glyphicon glyphicon-chevron-right" id="next"></span>
-                <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
-                   {% for post in site.posts limit:30 %}
-                       {% if post.featured == true %}
-                       <a href="{{ site.github.url }}{{ post.url }}">
-                            <div class="thubmnail">
-                                <img class="img-responsive" alt="Responsive image" data-lazy="{{ site.github.url }}{{ post.image}}">
-                                <div class="caption">
-                                    <h2>{{ post.title }} </h2>
-                                </div>
-                            </div>
-                        </a>
-                       {% endif %}
-                   {% endfor %}
-                 </div>
-            </div>
-        </div>
-    </div>
+	</div>
 </div>
+

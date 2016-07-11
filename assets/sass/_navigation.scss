@@ -7,7 +7,6 @@
   background-color: rgba(0,0,0,0.25);
   border-color: transparent;
   color: #fff !important;
-  color: $text-purple !important;
   @include border-radius(0px);
   @include box-shadow(0 0 0 0);
   a{
@@ -17,6 +16,11 @@
     font-size: 17px;
   }
 
+}
+
+.th {
+	position: absolute;
+	font-size: 19px;
 }
 
 .navbar-brand{

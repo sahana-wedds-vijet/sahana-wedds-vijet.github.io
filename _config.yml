@@ -6,7 +6,8 @@ markdown: kramdown
 # jekyll-feed The plugin will automatically generate an Atom feed at /feed.xml.
 
 # HOW TO INSTALL - >  bundle install
-gems: [jekyll-sitemap,jekyll-feed,jekyll-paginate]
+gems: []
+
 
 # how many post to show in ALL POST and FEATURED POST
 paginate: 6
